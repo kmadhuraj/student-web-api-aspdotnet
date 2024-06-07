@@ -1,0 +1,92 @@
+[
+  {
+    "ContainingType": "StudentDetailsAPI.Controllers.StudentController",
+    "Method": "GetStudent",
+    "RelativePath": "api/Student",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "student",
+        "Type": "StudentDetailsAPI.Dtos.StudentDetailsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentDetailsAPI.Controllers.StudentController",
+    "Method": "AddStudent",
+    "RelativePath": "api/Student",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentdetailsObj",
+        "Type": "StudentDetailsAPI.Models.StudentDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentDetailsAPI.Controllers.StudentController",
+    "Method": "ModifyStudent",
+    "RelativePath": "api/Student",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StudentId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "modifyStudent",
+        "Type": "StudentDetailsAPI.Models.StudentDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentDetailsAPI.Controllers.StudentController",
+    "Method": "DeleteStudent",
+    "RelativePath": "api/Student/{studentId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentDetailsAPI.Controllers.StudentController",
+    "Method": "UpdateStudent",
+    "RelativePath": "api/Student/{studentId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedStudent",
+        "Type": "StudentDetailsAPI.Models.StudentDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
